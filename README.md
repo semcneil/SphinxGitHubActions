@@ -1,5 +1,7 @@
-# CSCI310-Template-2025
-Template for assignments in CSCI310 Fall 2025
+# Sphinx-CICD-GitHub-Deploy
+Deploys Sphinx documentation automatically using GitHub Actions.
+
+The documentation for this repository are at: https://semcneil.github.io/SphinxGitHubActions/ 
 
 ## Prerequisites
 These instructions assume the following:
@@ -33,3 +35,8 @@ These instructions assume the following:
 1. Modify this `README.md` file to match your project
 1. Check the HTML output that can be found in `docs/_build/html/index.html` to make sure it looks correct
 1. Make sure that the relevant (hand edited) files are committed and pushed to your GitHub repository
+1. Check the Actions tag along the top to see if the workflow ran successfully (has a green checkmark next to it)
+1. Deploy the Sphinx HTML files to GitHub Pages by going to Settings -> Pages. Make sure that it has Deploy from a branch as the Source. Choose gh-pages root as the branch.
+1. Click Save
+1. Refresh the page to see the Your site is live at url
+1. Put this URL in your README
